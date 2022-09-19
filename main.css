@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    box-shadow: 0 35px 55px rgba(0,0, 0,1);
+    
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgX{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgX img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2{
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span{
+    font-weight: 300;
+
+}
+.container .left_Side{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.contactInfo{
+    padding-top: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.title{
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contactInfo ul{
+    position: relative;
+
+}
+.contactInfo ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon{
+    color: #03a9f4;
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+}
+.contactInfo ul li .text{
+    color: #bebebe;
+    font-weight: 300;
+}
+.contactInfo_education{
+    padding-top: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.contactInfo_education li{
+    margin-bottom: 15px;
+}
+.contactInfo_education h4:nth-child(2){
+   color:#bebebe;
+   font-weight: 500;
+}
+.contactInfo_education h4{
+    color: #bebebe;
+    font-weight: 300;
+ }
+.contactInfo_education h5{
+    color: #03a9f4;
+    font-weight: 500;
+}
+.contactInfo_education ul li{
+    list-style: none;
+}
+.contactInfo_language{
+    padding-top: 40px;
+}
+.contactInfo_language span{
+    color: #bebebe;
+    font-weight: 400;
+
+}
+.container .right_Side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    text-transform: uppercase;
+    color: #003147;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: #333;
+    padding-top: 5px;
+
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+.about .box .year_company{
+    min-width: 150px;
+}
+.about .box .year_company h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.about .box .text h4
+{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+.about_skill .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about_skill .box h4{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
